@@ -9,10 +9,12 @@ body {
 
 .bold {
   font-weight: bold;
+  font-size: 2rem;
 }
 
 .black {
   color: black;
+  font-size: 2rem;
 }
 
 /* DIFFERENT FONT SIZES */
@@ -48,7 +50,7 @@ header .desktop {
   height: 4rem;
   justify-content: space-between;
   align-items: center;
-  padding: 0 1.5rem;
+  padding: 1.5rem;
 }
 
 header .desktop .logo {
@@ -56,8 +58,9 @@ header .desktop .logo {
   display: flex;
   align-content: center;
   align-items: center;
-  justify-content: center;
   justify-items: center;
+  justify-content: center;
+
 }
 
 header .desktop ul {
